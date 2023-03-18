@@ -40,11 +40,10 @@
                                         We welcome enthusiastic students at any level to our lab. Please contact RISC to inquire about opportunities in the lab.  Currently, we have ongoing projects at the intersection of software engineering, machine learning, and cybersecurity:
                                     </p>
 									<ul>
-										<li>Legal Reasoning, Programming Languages, and Software Developments</li>
-										<li>Secure, Accountable, and Fair machine learning</li>
-										<li>Application of ML for Software Testing and Debugging</li>
-                                        <li>Fuzz Testing and Program Analysis for Software Reliability and Security</li>
-                                        <li>Probabilistic Programming and Causality</li>
+										<li>Secure, Efficient, and Reliable Machine Learning</li>
+										<li>Testing for Discrimination in Algorithmic Decision-Support Systems</li>
+										<li>Software Engineering for Legal Reasoning and Auditing</li>
+                                        <li>Fuzz Testing and Causal Debugging</li>
 			  						</ul>
                                     <p>
                                         <h3>Find Us</h3>
@@ -73,14 +72,18 @@
                                     <p>
                                     <strong>Accountable and Fair Computing</strong>
                                     </br>
-                                    Software has become an integral part of our society, impacting many aspects of our daily lives such as health care, criminal justice, education, and social services. Although modern software provides many advantages, there are growing ethical and legal concerns regarding the repercussions of software-based decisions such as legal compliance and fairness.
+                                    Discriminatory software is a critical issue in the automated decision-support systems. 
+									For example, Parole decision-making software was found to harm black and Hispanic defendants by falsely predicting a higher risk of recidivism than non-Hispanic white defendants;
+									Amazon's hiring algorithm disproportionately rejected more female applicants than male applicants;
+									and IRS audited black taxpayers at much higher rates than other racial groups. 
+									Thus, it is of paramount importance to detect, explain, and mitigate software discrimination in order to improve trustworthiness and minimize their harm to vulnerable communities. 
+									<i>My central research goal is to devise principled testing and debugging methods to improve fairness in software.</i>
+									</br>
+									See the research papers: <a href="https://arxiv.org/pdf/2202.06196.pdf" target="_blank">ICSE'22</a>, <a href="icse2023-paper892.pdf" target="_blank">ICSE'23</a>, and <a href="https://arxiv.org/abs/2205.04998" target="_blank">ICSE-SEIS'23</a>. Also, see <a href="https://minersutep-my.sharepoint.com/personal/saeid_utep_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsaeid%5Futep%5Fedu%2FDocuments%2FPresentations%2FParfait%2DML%2DICSE%2D22%2FPresentation%5FICSE%5F5%5Fmins%2Emov&ga=1" target="_blank">Presentation in ICSE'22</a>. 
                                     </br>
-                                    This project aims to leverage tools and techniques from software engineering, machine learning, and social science to address ethical and legal concerns in cyber systems under uncertainty. 
-                                    </br>
-                                    See <a href="https://minersutep-my.sharepoint.com/personal/saeid_utep_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsaeid%5Futep%5Fedu%2FDocuments%2FPresentations%2FParfait%2DML%2DICSE%2D22%2FPresentation%5FICSE%5F5%5Fmins%2Emov&ga=1" target="_blank">this presentation</a>, and <a href="https://arxiv.org/pdf/2202.06196.pdf" target="_blank">Parfait-ML</a> and <a href="https://arxiv.org/abs/2205.04998" target="_blank">TenForty</a> papers for more information.
                                     </p>
                                     <p>
-                                    <strong>Performance fuzzing and debugging</strong>
+                                    <strong>ML Performance fuzzing and debugging</strong>
                                     </br>
 									Building a tool that can detect and explain performance bugs is difficult when dealing with a large system.
 									We are developing DPFuzz, an approach that combines software engineering with machine learning to identify different classes of performances and explain root causes in terms of program internals. The approach has been successfully applied to large scale python and Java libraries and has since identified bugs in the implementations of popular and critical libraries.
@@ -89,6 +92,14 @@
                                     </br>
                                     See <a href="http://arxiv.org/abs/2006.01991" target="_blank">ISSTA'20</a>, <a href="https://cernyp.github.io/publications/aaai18/aaai18.pdf" target="_blank">AAAI'18</a>, and <a href="https://cernyp.github.io/publications/tacas17/tacas17.pdf" target="_blank">TACAS'17</a> papers for more information.
                                     </p>
+									<p>
+									<strong>Fuzz Testing for Security</strong>
+									</br>
+									Confidentiality and privacy are critical requirements of software. However, software might contaitn vulnerabilities that can be exploited by attackers to leak sensitive information.
+									The key idea is to devise novel fuzzing techniques that can automatically generate test cases that can be used to detect and debug privacy vulnerabilities in software.
+                                    </br>
+									See <a href="https://ieeexplore.ieee.org/document/9944024" target="_blank">TNSM'22</a>, <a href="https://arxiv.org/abs/2106.03346" target="_blank">ISSTA'21</a>, <a href="https://arxiv.org/abs/1808.10502" target="_blank">NDSS'20</a>, and <a href="https://link.springer.com/chapter/10.1007/978-3-030-25540-4_8" target="_blank">CAV'19</a>.
+									</p>
                                 </section>
 
 							<!-- Footer -->
