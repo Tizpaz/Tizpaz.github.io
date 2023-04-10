@@ -75,27 +75,27 @@
                                     <strong>Accountable and Fair Computing</strong>
                                     </br>
                                     Discriminatory software is a critical issue in the automated decision-support systems. 
-									For example, Parole decision-making software was found to harm black and Hispanic defendants by falsely predicting a higher risk of recidivism than non-Hispanic white defendants;
+									For example, Parole decision-making software was found to harm black and Hispanic defendants by falsely predicting a higher risk of re-offending for them than non-Hispanic white defendants;
 									Amazon's hiring algorithm disproportionately rejected more female applicants than male applicants;
 									and IRS audited black taxpayers at much higher rates than other racial groups. 
 									Thus, it is of paramount importance to detect, explain, and mitigate software discrimination in order to improve trustworthiness and minimize their harm to vulnerable communities. 
-									<i>The central research goal is to devise principled testing and debugging methods to improve fairness in software.</i>
+									<i>The central research goal is to devise principled testing and debugging methods to improve fairness in data-driven and rule-based software.</i>
 									</br>
 									See the research papers: <a href="https://arxiv.org/pdf/2202.06196.pdf" target="_blank">ICSE'22</a>, <a href="icse2023-paper892.pdf" target="_blank">ICSE'23</a>, and <a href="https://arxiv.org/abs/2205.04998" target="_blank">ICSE-SEIS'23</a>. Also, see <a href="https://minersutep-my.sharepoint.com/personal/saeid_utep_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsaeid%5Futep%5Fedu%2FDocuments%2FPresentations%2FParfait%2DML%2DICSE%2D22%2FPresentation%5FICSE%5F5%5Fmins%2Emov&ga=1" target="_blank">Presentation in ICSE'22</a>. 
                                     </br>
                                     </p>
                                     <p>
-                                    <strong>ML Performance fuzzing and debugging</strong>
+                                    <strong>Efficient Machine Learning Systems: Performance Bugs and Denial-of-Service Issues</strong>
                                     </br>
-									Building a tool that can detect and explain performance bugs is difficult when dealing with a large system.
-									We are developing DPFuzz, an approach that combines software engineering with machine learning to identify different classes of performances and explain root causes in terms of program internals. The approach has been successfully applied to large scale python and Java libraries and has since identified bugs in the implementations of popular and critical libraries.
-                                    </br>
-                                    This project aims to leverage tools and techniques from software engineering, machine learning, and social science to address ethical and legal concerns in cyber systems under uncertainty. 
-                                    </br>
+									Performance bgus, programming errors that cause significant performance degradations, lead to low throughput, poor user experiences, and security vulnerabilities.
+									Building a tool that can detect and explain performance bugs is difficult since they arise from non-functional aspects of programs and often require hyper-trace analysis to identify root causes.
+									We have developed a set of tools and techniques to discover, interpret, and mitigate performance bugs and denial-of-service vulnerabilities in machine learning libraries and Java web applications.
+									We synthesized approaches from gray-box fuzzing, dynamic program analysis, machine learning inference, and verification to build scalable and useful program analysis tools. These tools have been
+									successfully found multiple performance bugs in popular ML libraries such as scikit-learn and side-channel vulnerabilities in critical Java frameworks such as OpenJDK and Eclipse Jetty.
                                     See <a href="http://arxiv.org/abs/2006.01991" target="_blank">ISSTA'20</a>, <a href="https://cernyp.github.io/publications/aaai18/aaai18.pdf" target="_blank">AAAI'18</a>, and <a href="https://cernyp.github.io/publications/tacas17/tacas17.pdf" target="_blank">TACAS'17</a> papers for more information.
                                     </p>
 									<p>
-									<strong>Fuzz Testing for Security</strong>
+									<strong>Detecting Security Vulnerabilities via ML and DNN</strong>
 									</br>
 									Confidentiality and privacy are critical requirements of software. However, software might contaitn vulnerabilities that can be exploited by attackers to leak sensitive information.
 									The key idea is to devise novel fuzzing techniques that can automatically generate test cases that can be used to detect and debug privacy vulnerabilities in software.
